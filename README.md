@@ -1,4 +1,4 @@
-# crappy-cryptonyms :poop:
+# [crappy-cryptonyms](https://keithieopia.github.io/crappy-cryptonyms/) :poop:
 
 > Great repository names are short and memorable. Need inspiration? You could use GitHub's random respository name generator. Or you could use **crappy-cryptonyms** instead.
 
