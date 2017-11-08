@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title></title>
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        display: grid;
+
+        background-color: #EEE;
+        color: #444;
+        font-size: 2em;
+      }
+      .container {
+        margin: auto;
+        text-align: center;
+      }
+      h1 {
+        font-size: .5em;
+        font-weight: normal;
+        
+      }
+
+      #info {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        padding: 1em;
+        font-size: .2em;
+        font-style: oblique;
+      }
+      
+      #adjective, #noun {
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><span id="title"></span>:</h1>
+      <span id="adjective"></span>
+      <span id="noun"></span>
+    </div>
+    <div id="info">Over <span id="combos"></span> possible combinations!</div>
+    
+  </body>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  
+  <script src="js/adjectives.js"></script>
+  <script src="js/nouns.js"></script>
+  <script>
+   var title = ["Operation", "Code Name", "Code Word", "Secret Project"];
+    $( "#title" ).html( title[Math.floor(Math.random() * title.length)] );
+  
+    $( "#adjective" ).html( adjectives[Math.floor(Math.random() * adjectives.length)] );
+    $( "#noun" ).html( nouns[Math.floor(Math.random() * nouns.length)] );
+
+    var combos = nouns.length * adjectives.length;
+    $( "#combos" ).html( (combos + '').replace(/(\d)(?=(\d{3})+$)/g, '$1,') );
+
+    function find_dupes(arr) {
+    
+        var sorted_arr = arr.slice().sort(); 
+        var results = [];
+        for (var i = 0; i < arr.length - 1; i++) {
+            if (sorted_arr[i + 1] == sorted_arr[i]) {
+                results.push(sorted_arr[i]);
+            }
+        }
+
+        if (results.length > 0) {
+            console.log('Duplicates: ' + results);
+        }
+    }
+
+    find_dupes(adjectives);
+    find_dupes(nouns);
+  </script>
+</html>
