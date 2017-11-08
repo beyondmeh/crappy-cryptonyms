@@ -12,7 +12,7 @@ Featuring over 31,968 possible combinations such as:
 - Secret Project: *Stereotypical Abyss*
 - *... and more!*
 
-![](screenshot.png)
+[ ![](screenshot.png) ](https://keithieopia.github.io/crappy-cryptonyms/)
 
 ## License
 
