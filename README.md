@@ -1,4 +1,4 @@
-# crappy-cryptonyms :100: :crap:
+# crappy-cryptonyms :100: :poop:
 
 > Great repository names are short and memorable. Need inspiration? You could use GitHub's random respository name generator. Or you could use **crappy-cryptonyms** instead.
 
