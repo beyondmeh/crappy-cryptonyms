@@ -1,8 +1,8 @@
-# crappy-cryptonyms :100: :poop:
+# crappy-cryptonyms :poop:
 
 > Great repository names are short and memorable. Need inspiration? You could use GitHub's random respository name generator. Or you could use **crappy-cryptonyms** instead.
 
-Generate dubious sounding [code names](https://en.wikipedia.org/wiki/Code_name) and [CIA cryptonyms](https://en.wikipedia.org/wiki/CIA_cryptonym) for your next super secret project.
+Generate dubious sounding [code names](https://en.wikipedia.org/wiki/Code_name) and [CIA cryptonyms](https://en.wikipedia.org/wiki/CIA_cryptonym) for your next super secret project. Perfect for the aspiring evil genius hellbent on world domination!
 
 Featuring over 31,968 possible combinations such as:
 
