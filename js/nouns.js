@@ -142,5 +142,15 @@ var nouns = [
   "omelette",
   "tuba",
   "trumpet",
-  "rocket"
+  "rocket",
+  "assignment",
+  "deck",
+  "warrior",
+  "funeral",
+  "oyster",
+  "ornament",
+  "manor",
+  "roadway",
+  "pie",
+  "field"
 ];
