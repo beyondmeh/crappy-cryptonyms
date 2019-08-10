@@ -220,5 +220,15 @@ var adjectives = [
   "cheeky",
   "vile",
   "traitorous",
-  "crispy"
+  "crispy",
+  "dirigible",
+  "adamant",
+  "antic",
+  "arcadien",
+  "caustic",
+  "luminous",
+  "spasmodic",
+  "ubiquitous",
+  "unique",
+  "provable"
 ];
